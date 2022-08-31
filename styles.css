@@ -20,8 +20,8 @@
 }
 
 .image-cropper {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   position: relative;
   overflow: hidden;
   border-radius: 50%;
@@ -30,14 +30,12 @@
   float:left;
 }
 
-
 .figure-caption{
   margin: auto; 
-  width: 50%; 
-  border: 1px solid gray;
-  float: right;
+  width: auto; 
   text-align: center;
   padding: 15px ;
   position: relative;
 	height:auto;
+	display: flex; 
 }
