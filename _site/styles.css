@@ -18,3 +18,26 @@
 .nav-link:hover{
   color:#000000!important;
 }
+
+.image-cropper {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  display: inline;
+  margin: 0 auto;
+  float:left;
+}
+
+
+.figure-caption{
+  margin: auto; 
+  width: 50%; 
+  border: 1px solid gray;
+  float: right;
+  text-align: center;
+  padding: 15px ;
+  position: relative;
+	height:auto;
+}
