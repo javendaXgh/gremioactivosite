@@ -1,9 +1,37 @@
 /* css styles */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+h1.title {
+  font-family: "Pacifico";
+  font-size: 48px;
+}
+
+p{
+  font-family: "Pacifico";
+  font-size: 26px;
+  
+}
+
+
+.dropdown-text{
+   font-size: 22px;
+}
+
+.figure-caption{
+   font-size: 26px;
+}
+  
+}
+  
+  
+}
+
 
 
 .navbar-title{
    color: #fff;
 }
+
 
 .nav-link:hover{
     color:#000000;
@@ -18,14 +46,26 @@
 }
 
 .image-cropper {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   position: relative;
   overflow: hidden;
   border-radius: 50%;
   display: inline;
   margin: 0 auto;
   float:left;
+}
+
+.nav-link{
+  font-size: 24px;
+}
+
+.navbar-title{
+  font-size: 30px;
+}
+  
+}
+  
 }
 
 .figure-caption{

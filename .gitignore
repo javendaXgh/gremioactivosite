@@ -1,0 +1,10 @@
+/.quarto/
+.Rproj.user
+/img/
+*.qmd
+styles.css
+*.yml
+.Rhistory
+_quarto.yml
+gremioactivosite.Rproj
+
