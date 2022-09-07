@@ -46,7 +46,7 @@
     "href": "noticias.html",
     "title": "Noticias",
     "section": "",
-    "text": "Ir a la noticia: Cronica Uno"
+    "text": "{group=“noti1” width=“225” desc-position=“left”}"
   },
   {
     "objectID": "nosotros2.html",
