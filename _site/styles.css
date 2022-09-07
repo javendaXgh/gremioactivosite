@@ -12,6 +12,11 @@ p{
   
 }
 
+h4{
+  font-family: "Pacifico";
+  font-size: 30px;
+}
+  
 
 .dropdown-text{
    font-size: 22px;
@@ -21,12 +26,6 @@ p{
    font-size: 26px;
 }
   
-}
-  
-  
-}
-
-
 
 .navbar-title{
    color: #fff;
