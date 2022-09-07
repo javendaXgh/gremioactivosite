@@ -23,9 +23,12 @@ h4{
 }
 
 .figure-caption{
-   font-size: 26px;
+   font-size: 20px;
 }
   
+.figure{
+  border-style: solid;
+}
 
 .navbar-title{
    color: #fff;
