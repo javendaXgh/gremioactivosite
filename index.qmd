@@ -1,8 +1,15 @@
 ---
-title: "Un Gremio Activo por una mejor calidad de vida del profesorado, la autonomía universitaria y la democracia"
+title: "Un **Gremio Activo** por una mejor calidad de vida del profesorado, la autonomía universitaria y la democracia"
+filters:
+   - lightbox
+lightbox: auto
 ---
 
-Gremio Activo es una propuesta para los comicios de la Asociación de Profesores 2022 que se plantea un salto cualitativo de la gestión universitaria de tipo gremial. Este equipo es garantía de buenas prácticas. Somos docentes con experiencia para conservar lo positivo que se ha logrado hasta ahora y, en especial, con claridad para abordar lo que debe mejorarse, porque sabemos que los profesores de la UCV merecemos más.
+Gremio Activo es una propuesta para los comicios de la Asociación de Profesores 2022 que se plantea un salto cualitativo de la gestión universitaria de tipo gremial. Este equipo es garantía de buenas prácticas.
+
+![](img/carru1/carru5.jpeg)
+
+Sabemos qué hacer y cómo. Tenemos un programa para fortalecer las acciones de la APUCV y del IPP. La propuesta se sostiene en un modo de gestión que genere sinergias; que fortalezca encuentros dentro y fuera de la universidad.
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
@@ -12,25 +19,41 @@ library(slickR)
 
 ```{r, echo=FALSE }
 #,out.width='600px'
-slickR(obj = c("img/gremioactivo1H.jpeg",
-               "img/calle3H.jpg",
-               "img/calle5H.jpg",
-               "img/calle4H.jpg"
-                ),height = 400, width = "92%")+ #,width = "72%",height = 500
-  settings(dots = TRUE,autoplay = TRUE)
+
+slickR(obj = c("img/carru1/carru1.jpeg",
+               "img/carru1/carru2.jpeg",
+               "img/carru1/carru3.jpeg",
+               "img/carru1/carru4.jpeg"
+               ),
+       height = 320,
+       width = "90%",
+       )+ #,width = "72%",height = 500
+  settings(dots = TRUE,
+           autoplay = TRUE,
+           focusOnSelect = TRUE,
+           mobileFirst=TRUE,
+           # autoplaySpeed=750,
+           adaptiveHeight=TRUE,
+           )
+
+
 
 
 ```
 
-Somos profesores activos y jubilados con liderazgo reconocido y carrera académica, provenientes de las diferentes facultades. Algunos con experiencia en la gestión gremial y académica de la universidad, así como en instancias del cogobierno universitario; otros, en cambio, integrantes de las nuevas generaciones de docentes, de ese relevo sobre el que ha de descansar el futuro de la universidad y del gremio.
+Promovemos la corresponsabilidad como un ejercicio de ciudadanía y de civismo ucevista, acompañado de la exigibilidad de derechos sociales y laborales que distingue a las organizaciones sindicales y gremiales.
 
-Somos un grupo de docentes consecuentes, comprometidos con la lucha por los derechos laborales del profesorado, la carrera académica, la autonomía universitaria, la educación de calidad, la libertad académica y la democracia; y también, con la gestión y promoción de iniciativas que favorezcan la previsión social y la calidad de vida de nuestros colegas.
+El liderazgo de Gremio Activo apuesta a un estilo y método de dirección del gremio en el que priva el liderazgo colectivo y el lenguaje institucional.
 
-Sabemos qué hacer y cómo. Tenemos un programa para fortalecer las acciones de la APUCV y del IPP. La propuesta se sostiene en un modo de gestión que genere sinergias; que fortalezca encuentros dentro y fuera de la universidad. Promovemos la corresponsabilidad como un ejercicio de ciudadanía y de civismo ucevista, acompañado de la exigibilidad de derechos sociales y laborales que distingue a las organizaciones sindicales y gremiales.
+Promovemos la innovación desde el trabajo a partir de proyectos factibles y sostenibles, todos alineados a los propósitos estratégicos que nos motivan a dirigir la APUCV: Mejorar significativamente la calidad de vida de nuestros colegas y familias; garantizar la previsión y seguridad social social; mejorar las condiciones del trabajo académico; defender la Universidad autónoma, científica, democrática y de calidad, y contribuir con el cambio político que permita alcanzar la democracia en el país.
 
-El liderazgo de Gremio Activo apuesta a un estilo y método de dirección del gremio en el que priva el liderazgo colectivo y el lenguaje institucional. Promovemos la innovación desde el trabajo a partir de proyectos factibles y sostenibles, todos alineados a los propósitos estratégicos que nos motivan a dirigir la APUCV: Mejorar significativamente la calidad de vida de nuestros colegas y familias; garantizar la previsión y seguridad social social; mejorar las condiciones del trabajo académico; defender la Universidad autónoma, científica, democrática y de calidad, y contribuir con el cambio político que permita alcanzar la democracia en el país. Presentamos una propuesta de gestión responsable, pues hay que mantener lo bueno. Destacamos lo hecho hasta ahora, para lograr que el sistema previsional del profesorado y las instituciones educativas para los hijos de los profesores se conserven, pese a vivir años de hiperinflación y de pandemia. Pero es posible y necesario lograr más. La clave es involucrar a los profesores en la gestión y colocar sus intereses como norte de la acción gremial.
+Presentamos una propuesta de gestión responsable, pues hay que mantener lo bueno.
 
-Atendiendo su naturaleza gremial, nuestra propuesta asume sin ambages la lucha por los derechos laborales de los profesores. Su defensa ante quienes los desconozcan no admite doble rasero. Creemos en tanto diálogo como sea posible y tanto conflicto como sea necesario. El diálogo y el conflicto no son fines en sí mismos, se interpretan como medios para defender los derechos y alcanzar nuevas reivindicaciones. Nos impulsa el interés colectivo y la mirada en el futuro, más que hacia el pasado. Defendemos la justicia, alejados de la venganza.
+Destacamos lo hecho hasta ahora, para lograr que el sistema previsional del profesorado y las instituciones educativas para los hijos de los profesores se conserven, pese a vivir años de hiperinflación y de pandemia. Pero es posible y necesario lograr más. La clave es involucrar a los profesores en la gestión y colocar sus intereses como norte de la acción gremial.
+
+Atendiendo su naturaleza gremial, nuestra propuesta asume sin ambages la lucha por los derechos laborales de los profesores. Su defensa ante quienes los desconozcan no admite doble rasero.
+
+Creemos en tanto diálogo como sea posible y tanto conflicto como sea necesario. El diálogo y el conflicto no son fines en sí mismos, se interpretan como medios para defender los derechos y alcanzar nuevas reivindicaciones. Nos impulsa el interés colectivo y la mirada en el futuro, más que hacia el pasado. Defendemos la justicia, alejados de la venganza.
 
 Finalmente, nos comprometemos con una gestión democrática y amplia, que consulte y favorezca la participación de los agremiados sin distingos de ninguna naturaleza, que rinda cuentas periódicamente y garantice la transparencia en el uso de los recursos del gremio.
 
