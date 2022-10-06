@@ -5,26 +5,47 @@ filters:
 lightbox: auto
 ---
 
-Gremio Activo es una propuesta para los comicios de la Asociación de Profesores 2022 que se plantea un salto cualitativo de la gestión universitaria de tipo gremial. Este equipo es garantía de buenas prácticas.
-
-![](img/carru1/carru5.jpeg)
-
-Sabemos qué hacer y cómo. Tenemos un programa para fortalecer las acciones de la APUCV y del IPP. La propuesta se sostiene en un modo de gestión que genere sinergias; que fortalezca encuentros dentro y fuera de la universidad.
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 library(htmlwidgets)
 library(slickR)
 ```
 
+Gremio Activo es una propuesta para los comicios de la Asociación de Profesores 2022 que se plantea un salto cualitativo de la gestión universitaria de tipo gremial. Este equipo es garantía de buenas prácticas.
+
+## **Boletas de Votación**
+
 ```{r, echo=FALSE }
 #,out.width='600px'
+# 
+# slickR(obj = c("img/carru1/carru1.jpeg",
+#                "img/carru1/carru2.jpeg",
+#                "img/carru1/carru3.jpeg",
+#                "img/carru1/carru4.jpeg"
+#                ),
+#        height = 320,
+#        width = "90%",
+#        )+ #,width = "72%",height = 500
+#   settings(dots = TRUE,
+#            autoplay = TRUE,
+#            focusOnSelect = TRUE,
+#            mobileFirst=TRUE,
+#            # autoplaySpeed=750,
+#            adaptiveHeight=TRUE,
+#            )
 
-slickR(obj = c("img/carru1/carru1.jpeg",
-               "img/carru1/carru2.jpeg",
-               "img/carru1/carru3.jpeg",
-               "img/carru1/carru4.jpeg"
-               ),
+slickR(obj = c("img/boletaso/1.jpeg",
+                "img/boletaso/2.jpeg",
+                "img/boletaso/3.jpeg",
+                "img/boletaso/4.jpeg",
+                "img/boletaso/5.jpeg",
+                "img/boletaso/6.jpeg",
+                "img/boletaso/7.jpeg",
+                "img/boletaso/8.jpeg",
+                "img/boletaso/9.jpeg",
+                "img/boletaso/10.jpeg",
+                "img/boletaso/11.jpeg",
+                "img/boletaso/12.jpeg"),
        height = 320,
        width = "90%",
        )+ #,width = "72%",height = 500
@@ -38,8 +59,12 @@ slickR(obj = c("img/carru1/carru1.jpeg",
 
 
 
-
 ```
+<br><br>
+
+![](img/carru1/carru5.jpeg)
+
+Sabemos qué hacer y cómo. Tenemos un programa para fortalecer las acciones de la APUCV y del IPP. La propuesta se sostiene en un modo de gestión que genere sinergias; que fortalezca encuentros dentro y fuera de la universidad.
 
 Promovemos la corresponsabilidad como un ejercicio de ciudadanía y de civismo ucevista, acompañado de la exigibilidad de derechos sociales y laborales que distingue a las organizaciones sindicales y gremiales.
 
