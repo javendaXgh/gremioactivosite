@@ -34,9 +34,9 @@ Gremio Activo es una propuesta para los comicios de la Asociación de Profesores
 #            adaptiveHeight=TRUE,
 #            )
 
-slickR(obj = c("img/boletaso/1.jpeg",
+slickR(obj = c("img/boletaso/0.jpeg",
+                "img/boletaso/1-1.jpeg",
                 "img/boletaso/2.jpeg",
-                "img/boletaso/3.jpeg",
                 "img/boletaso/4.jpeg",
                 "img/boletaso/5.jpeg",
                 "img/boletaso/6.jpeg",
@@ -46,7 +46,7 @@ slickR(obj = c("img/boletaso/1.jpeg",
                 "img/boletaso/10.jpeg",
                 "img/boletaso/11.jpeg",
                 "img/boletaso/12.jpeg"),
-       height = 320,
+       height = 450,
        width = "90%",
        )+ #,width = "72%",height = 500
   settings(dots = TRUE,
