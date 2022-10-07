@@ -173,9 +173,114 @@ gtag('config', 'G-MBPR5Z7TW8', { 'anonymize_ip': true});
     
     
   </div>
-  
 
 </header>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.8.2.js"></script>
+<style type="text/css">
+#overlay {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: #000;
+filter:alpha(opacity=70);
+-moz-opacity:0.7;
+-khtml-opacity: 0.7;
+opacity: 0.7;
+z-index: 100;
+display: none;
+}
+.cnt223 a{
+text-decoration: none;
+}
+.popup{
+width: 100%;
+margin: 0 auto;
+
+
+display: none;
+position: float;
+z-index: 101;
+}
+.cnt223{
+min-width: 600px;
+width: 600px;
+min-height: 150px;
+margin: 100px auto;
+background: #f3f3f3;
+position: relative;
+z-index: 103;
+padding: 15px 35px;
+border-radius: 5px;
+box-shadow: 0 2px 5px #000;
+}
+.cnt223 p{
+clear: both;
+    color: #555555;
+    /* text-align: justify; */
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.cnt223 p a{
+color: #d91900;
+font-weight: bold;
+}
+.cnt223 .x{
+float: center;
+height: 35px;
+left: 22px;
+position: relative;
+top: -25px;
+width: 34px;
+}
+.cnt223 .x:hover{
+cursor: pointer;
+}
+.popup {
+  text-align: center;
+
+}
+
+</style>
+<script type='text/javascript'>
+$(function(){
+var overlay = $('<div id="overlay"></div>');
+overlay.show();
+overlay.appendTo(document.body);
+$('.popup').show();
+$('.close').click(function(){
+$('.popup').hide();
+overlay.appendTo(document.body).remove();
+return false;
+});
+
+
+ 
+
+$('.x').click(function(){
+$('.popup').hide();
+overlay.appendTo(document.body).remove();
+return false;
+});
+});
+</script>
+<div class='popup'>
+<div class='cnt223'>
+<h1>  Profesor ucevista: </h1>
+<p>
+  Gracias, mil gracias por depositar tu confianza en nosotros y escogernos para dirigir la APUCV.
+  
+  Hoy más que nunca reiteramos nuestro compromiso con el gremio, la universidad y el país.
+  <br>
+<iframe width="250" height="442" src="https://www.youtube.com/embed/a27_76e09kk" title="GREMIO ACTIVO-FaCES" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+
+<br/>
+<br/>
+<a href='' class='close'>cerrar</a>
+</p>
+</div>
+</div>
 
 <p>Gremio Activo es una propuesta para los comicios de la Asociación de Profesores 2022 que se plantea un salto cualitativo de la gestión universitaria de tipo gremial. Este equipo es garantía de buenas prácticas.</p>
 <section id="boletas-de-votación" class="level2">
